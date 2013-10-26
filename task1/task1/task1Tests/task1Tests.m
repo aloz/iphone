@@ -8,6 +8,9 @@
 
 #import <XCTest/XCTest.h>
 
+#import "Transport.h"
+#import "Vehicle.h"
+
 @interface task1Tests : XCTestCase
 
 @end
@@ -28,7 +31,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    Vehicle *v = [Vehicle initWithNameAndPrice:@"ToTroeshina" vehiclePrice:[[NSNumber alloc] initWithInt:100]];
 }
 
 @end

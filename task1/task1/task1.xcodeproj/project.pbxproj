@@ -21,6 +21,8 @@
 		D3FE0903181C229F00B5F3EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE08E5181C229F00B5F3EF /* UIKit.framework */; };
 		D3FE090B181C229F00B5F3EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3FE0909181C229F00B5F3EF /* InfoPlist.strings */; };
 		D3FE090D181C229F00B5F3EF /* task1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE090C181C229F00B5F3EF /* task1Tests.m */; };
+		D3FE0918181C238700B5F3EF /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE0917181C238700B5F3EF /* Transport.m */; };
+		D3FE091B181C2D6F00B5F3EF /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE091A181C2D6F00B5F3EF /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D3FE0908181C229F00B5F3EF /* task1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "task1Tests-Info.plist"; sourceTree = "<group>"; };
 		D3FE090A181C229F00B5F3EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3FE090C181C229F00B5F3EF /* task1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = task1Tests.m; sourceTree = "<group>"; };
+		D3FE0916181C238700B5F3EF /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
+		D3FE0917181C238700B5F3EF /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transport.m; sourceTree = "<group>"; };
+		D3FE0919181C2D6F00B5F3EF /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		D3FE091A181C2D6F00B5F3EF /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				D3FE08F7181C229F00B5F3EF /* labViewController.m */,
 				D3FE08F9181C229F00B5F3EF /* Images.xcassets */,
 				D3FE08E8181C229F00B5F3EF /* Supporting Files */,
+				D3FE0916181C238700B5F3EF /* Transport.h */,
+				D3FE0917181C238700B5F3EF /* Transport.m */,
+				D3FE0919181C2D6F00B5F3EF /* Vehicle.h */,
+				D3FE091A181C2D6F00B5F3EF /* Vehicle.m */,
 			);
 			path = task1;
 			sourceTree = "<group>";
@@ -253,6 +263,8 @@
 				D3FE08F8181C229F00B5F3EF /* labViewController.m in Sources */,
 				D3FE08F2181C229F00B5F3EF /* labAppDelegate.m in Sources */,
 				D3FE08EE181C229F00B5F3EF /* main.m in Sources */,
+				D3FE0918181C238700B5F3EF /* Transport.m in Sources */,
+				D3FE091B181C2D6F00B5F3EF /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +395,7 @@
 				GCC_PREFIX_HEADER = "task1/task1-Prefix.pch";
 				INFOPLIST_FILE = "task1/task1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,6 +409,7 @@
 				GCC_PREFIX_HEADER = "task1/task1-Prefix.pch";
 				INFOPLIST_FILE = "task1/task1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
