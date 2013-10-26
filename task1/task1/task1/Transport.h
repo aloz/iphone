@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Anton Lozovsky. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 @interface Transport : NSObject
 
 @property(readwrite) NSString *Name;

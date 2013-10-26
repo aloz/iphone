@@ -12,6 +12,6 @@
 
 @property(readwrite) NSNumber *Price;
 
-+(Vehicle *)initWithNameAndPrice:(NSString *)vehicleName vehiclePrice:(NSNumber *)vehiclePrice;
++(id)initWithNameAndPrice:(NSString *)vehicleName vehiclePrice:(NSNumber *)vehiclePrice;
 
 @end

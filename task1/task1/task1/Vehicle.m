@@ -20,7 +20,7 @@
     _Price = Price;
 }
 
-+(Vehicle *)initWithNameAndPrice:(NSString *)vehicleName vehiclePrice:(NSNumber *)vehiclePrice
++(id)initWithNameAndPrice:(NSString *)vehicleName vehiclePrice:(NSNumber *)vehiclePrice
 {
     // Vehicle *v = [Vehicle initWithNameAndPrice:@"ToTroeshina" vehiclePrice:[[NSNumber alloc] initWithInt:100]];
     Vehicle *result = [[Vehicle alloc] init];
