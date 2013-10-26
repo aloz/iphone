@@ -10,15 +10,7 @@
 
 @implementation Vehicle
 
-@synthesize Price = _Price;
--(NSNumber *)Price
-{
-    return _Price;
-}
--(void)setPrice:(NSNumber *)Price
-{
-    _Price = Price;
-}
+@synthesize Price;
 
 +(id)initWithNameAndPrice:(NSString *)vehicleName vehiclePrice:(NSNumber *)vehiclePrice
 {

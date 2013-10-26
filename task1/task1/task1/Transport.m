@@ -10,14 +10,6 @@
 
 @implementation Transport
 
-@synthesize Name = _Name;
--(NSString *)Name
-{
-    return _Name;
-}
--(void)setName:(NSString *)Name
-{
-    _Name = Name;
-}
+@synthesize Name;
 
 @end
