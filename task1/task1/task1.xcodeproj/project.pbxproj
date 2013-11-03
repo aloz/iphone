@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32ADE9218265F3D00918AEE /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32ADE9118265F3D00918AEE /* main.storyboard */; };
+		D32ADE95182661C800918AEE /* labRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32ADE94182661C800918AEE /* labRouteViewController.m */; };
+		D3FD1C891824F2550013F6A0 /* TransportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FD1C881824F2550013F6A0 /* TransportModel.m */; };
 		D3FE08E2181C229F00B5F3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE08E1181C229F00B5F3EF /* Foundation.framework */; };
 		D3FE08E4181C229F00B5F3EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE08E3181C229F00B5F3EF /* CoreGraphics.framework */; };
 		D3FE08E6181C229F00B5F3EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE08E5181C229F00B5F3EF /* UIKit.framework */; };
 		D3FE08EC181C229F00B5F3EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3FE08EA181C229F00B5F3EF /* InfoPlist.strings */; };
 		D3FE08EE181C229F00B5F3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE08ED181C229F00B5F3EF /* main.m */; };
 		D3FE08F2181C229F00B5F3EF /* labAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE08F1181C229F00B5F3EF /* labAppDelegate.m */; };
-		D3FE08F5181C229F00B5F3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FE08F3181C229F00B5F3EF /* Main.storyboard */; };
-		D3FE08F8181C229F00B5F3EF /* labViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE08F7181C229F00B5F3EF /* labViewController.m */; };
 		D3FE08FA181C229F00B5F3EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FE08F9181C229F00B5F3EF /* Images.xcassets */; };
 		D3FE0901181C229F00B5F3EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE0900181C229F00B5F3EF /* XCTest.framework */; };
 		D3FE0902181C229F00B5F3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE08E1181C229F00B5F3EF /* Foundation.framework */; };
@@ -36,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32ADE9118265F3D00918AEE /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = main.storyboard; path = ../main.storyboard; sourceTree = "<group>"; };
+		D32ADE93182661C800918AEE /* labRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labRouteViewController.h; sourceTree = "<group>"; };
+		D32ADE94182661C800918AEE /* labRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = labRouteViewController.m; sourceTree = "<group>"; };
+		D3FD1C871824F2550013F6A0 /* TransportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportModel.h; sourceTree = "<group>"; };
+		D3FD1C881824F2550013F6A0 /* TransportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportModel.m; sourceTree = "<group>"; };
 		D3FE08DE181C229F00B5F3EF /* task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FE08E1181C229F00B5F3EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3FE08E3181C229F00B5F3EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,9 +52,6 @@
 		D3FE08EF181C229F00B5F3EF /* task1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "task1-Prefix.pch"; sourceTree = "<group>"; };
 		D3FE08F0181C229F00B5F3EF /* labAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = labAppDelegate.h; sourceTree = "<group>"; };
 		D3FE08F1181C229F00B5F3EF /* labAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = labAppDelegate.m; sourceTree = "<group>"; };
-		D3FE08F4181C229F00B5F3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3FE08F6181C229F00B5F3EF /* labViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = labViewController.h; sourceTree = "<group>"; };
-		D3FE08F7181C229F00B5F3EF /* labViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = labViewController.m; sourceTree = "<group>"; };
 		D3FE08F9181C229F00B5F3EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3FE08FF181C229F00B5F3EF /* task1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FE0900181C229F00B5F3EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3FD1C861824F08A0013F6A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3FD1C871824F2550013F6A0 /* TransportModel.h */,
+				D3FD1C881824F2550013F6A0 /* TransportModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D3FE08D5181C229F00B5F3EF = {
 			isa = PBXGroup;
 			children = (
@@ -119,16 +131,16 @@
 			isa = PBXGroup;
 			children = (
 				D3FE08F0181C229F00B5F3EF /* labAppDelegate.h */,
+				D32ADE9118265F3D00918AEE /* main.storyboard */,
 				D3FE08F1181C229F00B5F3EF /* labAppDelegate.m */,
-				D3FE08F3181C229F00B5F3EF /* Main.storyboard */,
-				D3FE08F6181C229F00B5F3EF /* labViewController.h */,
-				D3FE08F7181C229F00B5F3EF /* labViewController.m */,
 				D3FE08F9181C229F00B5F3EF /* Images.xcassets */,
 				D3FE08E8181C229F00B5F3EF /* Supporting Files */,
 				D3FE0916181C238700B5F3EF /* Transport.h */,
 				D3FE0917181C238700B5F3EF /* Transport.m */,
 				D3FE0919181C2D6F00B5F3EF /* Vehicle.h */,
 				D3FE091A181C2D6F00B5F3EF /* Vehicle.m */,
+				D32ADE93182661C800918AEE /* labRouteViewController.h */,
+				D32ADE94182661C800918AEE /* labRouteViewController.m */,
 			);
 			path = task1;
 			sourceTree = "<group>";
@@ -136,6 +148,7 @@
 		D3FE08E8181C229F00B5F3EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3FD1C861824F08A0013F6A0 /* Models */,
 				D3FE08E9181C229F00B5F3EF /* task1-Info.plist */,
 				D3FE08EA181C229F00B5F3EF /* InfoPlist.strings */,
 				D3FE08ED181C229F00B5F3EF /* main.m */,
@@ -241,7 +254,7 @@
 			files = (
 				D3FE08FA181C229F00B5F3EF /* Images.xcassets in Resources */,
 				D3FE08EC181C229F00B5F3EF /* InfoPlist.strings in Resources */,
-				D3FE08F5181C229F00B5F3EF /* Main.storyboard in Resources */,
+				D32ADE9218265F3D00918AEE /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FE08F8181C229F00B5F3EF /* labViewController.m in Sources */,
+				D3FD1C891824F2550013F6A0 /* TransportModel.m in Sources */,
 				D3FE08F2181C229F00B5F3EF /* labAppDelegate.m in Sources */,
+				D32ADE95182661C800918AEE /* labRouteViewController.m in Sources */,
 				D3FE08EE181C229F00B5F3EF /* main.m in Sources */,
 				D3FE0918181C238700B5F3EF /* Transport.m in Sources */,
 				D3FE091B181C2D6F00B5F3EF /* Vehicle.m in Sources */,
@@ -293,14 +307,6 @@
 				D3FE08EB181C229F00B5F3EF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D3FE08F3181C229F00B5F3EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3FE08F4181C229F00B5F3EF /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D3FE0909181C229F00B5F3EF /* InfoPlist.strings */ = {
@@ -391,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "task1/task1-Prefix.pch";
 				INFOPLIST_FILE = "task1/task1-Info.plist";
@@ -405,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "task1/task1-Prefix.pch";
 				INFOPLIST_FILE = "task1/task1-Info.plist";
@@ -475,6 +483,7 @@
 				D3FE0912181C229F00B5F3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3FE0913181C229F00B5F3EF /* Build configuration list for PBXNativeTarget "task1Tests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +492,7 @@
 				D3FE0915181C229F00B5F3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

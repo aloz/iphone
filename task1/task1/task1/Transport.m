@@ -10,6 +10,25 @@
 
 @implementation Transport
 
-@synthesize Name;
+-(void)setIsFavourite:(BOOL)IsFavourite {
+    _isFavourite = IsFavourite;
+}
+-(BOOL)getIsFavourite {
+    return _isFavourite;
+}
+
+-(void)setName:(NSString *)Name {
+    _Name = Name;
+}
+-(NSString *)getName {
+    return _Name;
+}
+
+-(void)setTicketPrice:(NSNumber *)TicketPrice {
+    _TicketPrice = TicketPrice;
+}
+-(NSNumber *)getTicketPrice {
+    return _TicketPrice;
+}
 
 @end

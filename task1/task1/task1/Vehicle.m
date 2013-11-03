@@ -12,7 +12,7 @@
 
 @synthesize Price;
 
-+(id)initWithNameAndPrice:(NSString *)vehicleName vehiclePrice:(NSNumber *)vehiclePrice
++(id)initWithName:(NSString *)vehicleName andPrice:(NSNumber *)vehiclePrice
 {
     // Vehicle *v = [Vehicle initWithNameAndPrice:@"ToTroeshina" vehiclePrice:[[NSNumber alloc] initWithInt:100]];
     Vehicle *result = [[Vehicle alloc] init];

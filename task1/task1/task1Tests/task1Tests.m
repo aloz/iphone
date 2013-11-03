@@ -10,6 +10,7 @@
 
 #import "Transport.h"
 #import "Vehicle.h"
+#import "TransportModel.h"
 
 @interface task1Tests : XCTestCase
 
@@ -31,7 +32,12 @@
 
 - (void)testExample
 {
-    Vehicle *v = [Vehicle initWithNameAndPrice:@"ToTroeshina" vehiclePrice:[[NSNumber alloc] initWithInt:100]];
+    /*
+    TransportModel *m = [TransportModel getInstance];
+    NSArray *ord = [m obtainVehicleOrd];
+    NSArray *fav = [m obtainVehicleFav];
+     */
+    //Vehicle *v = [Vehicle initWithNameAndPrice:@"ToTroeshina" vehiclePrice:[[NSNumber alloc] initWithInt:100]];
 }
 
 @end

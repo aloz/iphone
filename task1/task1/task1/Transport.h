@@ -8,6 +8,8 @@
 
 @interface Transport : NSObject
 
-@property(readwrite) NSString *Name;
+@property(nonatomic) BOOL isFavourite;
+@property(nonatomic) NSString *Name;
+@property(nonatomic) NSNumber *TicketPrice;
 
 @end
